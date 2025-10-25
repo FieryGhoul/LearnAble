@@ -7,7 +7,8 @@ export const coursesData: Course[] = [
     title: "Python for Everybody",
     platform: "Coursera",
     url: "https://www.coursera.org/specializations/python",
-    description: "Learn to program and analyze data with Python. Develop programs to gather, clean, analyze, and visualize data.",
+    description:
+      "Learn to program and analyze data with Python. Develop programs to gather, clean, analyze, and visualize data.",
     instructor: "Charles Severance, University of Michigan",
     duration: 480,
     moduleLength: 15,
@@ -24,14 +25,15 @@ export const coursesData: Course[] = [
     category: "Programming",
     tags: ["python", "programming", "data analysis"],
     rating: 5,
-    enrollmentCount: 450000
+    enrollmentCount: 450000,
   },
   {
     id: "python-codecademy",
     title: "Learn Python 3",
     platform: "Codecademy",
     url: "https://www.codecademy.com/learn/learn-python-3",
-    description: "Learn the basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today.",
+    description:
+      "Learn the basics of Python 3, one of the most powerful, versatile, and in-demand programming languages today.",
     instructor: "Codecademy",
     duration: 300,
     moduleLength: 10,
@@ -48,14 +50,15 @@ export const coursesData: Course[] = [
     category: "Programming",
     tags: ["python", "programming", "coding"],
     rating: 5,
-    enrollmentCount: 250000
+    enrollmentCount: 250000,
   },
   {
     id: "python-intermediate-udemy",
     title: "Complete Python Bootcamp: Go from Zero to Hero",
     platform: "Udemy",
     url: "https://www.udemy.com/course/complete-python-bootcamp/",
-    description: "Learn Python like a Professional! Start from the basics and go all the way to creating your own applications and games.",
+    description:
+      "Learn Python like a Professional! Start from the basics and go all the way to creating your own applications and games.",
     instructor: "Jose Portilla",
     duration: 1320,
     moduleLength: 20,
@@ -72,14 +75,15 @@ export const coursesData: Course[] = [
     category: "Programming",
     tags: ["python", "programming", "bootcamp"],
     rating: 5,
-    enrollmentCount: 180000
+    enrollmentCount: 180000,
   },
   {
     id: "python-data-science-edx",
     title: "Python for Data Science",
     platform: "edX",
     url: "https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python",
-    description: "An introduction to programming using Python, a popular language for general-purpose programming, data science, web programming, and more.",
+    description:
+      "An introduction to programming using Python, a popular language for general-purpose programming, data science, web programming, and more.",
     instructor: "David J. Malan, Harvard University",
     duration: 600,
     moduleLength: 25,
@@ -96,7 +100,7 @@ export const coursesData: Course[] = [
     category: "Programming",
     tags: ["python", "data science", "harvard"],
     rating: 5,
-    enrollmentCount: 95000
+    enrollmentCount: 95000,
   },
 
   // Graphic Design Courses
@@ -105,7 +109,8 @@ export const coursesData: Course[] = [
     title: "Graphic Design Specialization",
     platform: "Coursera",
     url: "https://www.coursera.org/specializations/graphic-design",
-    description: "Learn the fundamentals of graphic design: imagemaking, typography, composition, working with color and shape.",
+    description:
+      "Learn the fundamentals of graphic design: imagemaking, typography, composition, working with color and shape.",
     instructor: "CalArts",
     duration: 360,
     moduleLength: 18,
@@ -122,14 +127,15 @@ export const coursesData: Course[] = [
     category: "Design",
     tags: ["graphic design", "design", "visual arts"],
     rating: 5,
-    enrollmentCount: 75000
+    enrollmentCount: 75000,
   },
   {
     id: "canva-design-udemy",
     title: "Canva Master Course: Graphic Design with Canva",
     platform: "Udemy",
     url: "https://www.udemy.com/course/canva-master-course-graphic-design-with-canva/",
-    description: "Learn graphic design with Canva. Create stunning designs for social media, marketing, presentations and more.",
+    description:
+      "Learn graphic design with Canva. Create stunning designs for social media, marketing, presentations and more.",
     instructor: "Jeremy Deighan",
     duration: 240,
     moduleLength: 12,
@@ -146,14 +152,15 @@ export const coursesData: Course[] = [
     category: "Design",
     tags: ["canva", "graphic design", "design tools"],
     rating: 4,
-    enrollmentCount: 42000
+    enrollmentCount: 42000,
   },
   {
     id: "adobe-illustrator-linkedin",
     title: "Learning Adobe Illustrator",
     platform: "LinkedIn Learning",
     url: "https://www.linkedin.com/learning/illustrator-2024-essential-training",
-    description: "Learn the essential tools and techniques for creating vector graphics in Adobe Illustrator.",
+    description:
+      "Learn the essential tools and techniques for creating vector graphics in Adobe Illustrator.",
     instructor: "Tony Harmer",
     duration: 420,
     moduleLength: 15,
@@ -170,7 +177,7 @@ export const coursesData: Course[] = [
     category: "Design",
     tags: ["adobe illustrator", "graphic design", "vector graphics"],
     rating: 5,
-    enrollmentCount: 38000
+    enrollmentCount: 38000,
   },
 
   // Photography Courses
@@ -179,7 +186,8 @@ export const coursesData: Course[] = [
     title: "Photography Masterclass: A Complete Guide to Photography",
     platform: "Udemy",
     url: "https://www.udemy.com/course/photography-masterclass-complete-guide-to-photography/",
-    description: "Learn Digital Photography and take professional photos easily. Start your Photography Business.",
+    description:
+      "Learn Digital Photography and take professional photos easily. Start your Photography Business.",
     instructor: "Phil Ebiner",
     duration: 1440,
     moduleLength: 22,
@@ -196,14 +204,15 @@ export const coursesData: Course[] = [
     category: "Photography",
     tags: ["photography", "digital photography", "camera"],
     rating: 5,
-    enrollmentCount: 125000
+    enrollmentCount: 125000,
   },
   {
     id: "fundamentals-photography-coursera",
     title: "Fundamentals of Photography",
     platform: "Coursera",
     url: "https://www.coursera.org/learn/photography-basics",
-    description: "Learn the skills needed to start making beautiful photographs. Build a solid foundation in exposure, composition, and design.",
+    description:
+      "Learn the skills needed to start making beautiful photographs. Build a solid foundation in exposure, composition, and design.",
     instructor: "Peter Glendinning, MIT",
     duration: 480,
     moduleLength: 20,
@@ -220,7 +229,7 @@ export const coursesData: Course[] = [
     category: "Photography",
     tags: ["photography", "composition", "exposure"],
     rating: 5,
-    enrollmentCount: 52000
+    enrollmentCount: 52000,
   },
 
   // Web Development Courses
@@ -229,7 +238,8 @@ export const coursesData: Course[] = [
     title: "The Complete 2024 Web Development Bootcamp",
     platform: "Udemy",
     url: "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
-    description: "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps.",
+    description:
+      "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps.",
     instructor: "Dr. Angela Yu",
     duration: 3840,
     moduleLength: 18,
@@ -246,14 +256,15 @@ export const coursesData: Course[] = [
     category: "Web Development",
     tags: ["web development", "html", "css", "javascript", "react"],
     rating: 5,
-    enrollmentCount: 320000
+    enrollmentCount: 320000,
   },
   {
     id: "responsive-web-design-freecodecamp",
     title: "Responsive Web Design Certification",
     platform: "freeCodeCamp",
     url: "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
-    description: "Learn the languages that developers use to build webpages: HTML for content, and CSS for design.",
+    description:
+      "Learn the languages that developers use to build webpages: HTML for content, and CSS for design.",
     instructor: "freeCodeCamp",
     duration: 300,
     moduleLength: 10,
@@ -270,14 +281,15 @@ export const coursesData: Course[] = [
     category: "Web Development",
     tags: ["html", "css", "web design", "responsive"],
     rating: 5,
-    enrollmentCount: 500000
+    enrollmentCount: 500000,
   },
   {
     id: "javascript-algorithms-freecodecamp",
     title: "JavaScript Algorithms and Data Structures",
     platform: "freeCodeCamp",
     url: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
-    description: "Learn JavaScript fundamentals like variables, arrays, objects, loops, functions, and more.",
+    description:
+      "Learn JavaScript fundamentals like variables, arrays, objects, loops, functions, and more.",
     instructor: "freeCodeCamp",
     duration: 300,
     moduleLength: 8,
@@ -294,7 +306,7 @@ export const coursesData: Course[] = [
     category: "Programming",
     tags: ["javascript", "algorithms", "data structures"],
     rating: 5,
-    enrollmentCount: 400000
+    enrollmentCount: 400000,
   },
 
   // Digital Marketing Courses
@@ -303,7 +315,8 @@ export const coursesData: Course[] = [
     title: "Google Digital Marketing & E-commerce Certificate",
     platform: "Coursera",
     url: "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce",
-    description: "Learn the fundamentals of digital marketing and e-commerce to gain the skills needed to land an entry-level job.",
+    description:
+      "Learn the fundamentals of digital marketing and e-commerce to gain the skills needed to land an entry-level job.",
     instructor: "Google",
     duration: 480,
     moduleLength: 20,
@@ -320,7 +333,7 @@ export const coursesData: Course[] = [
     category: "Marketing",
     tags: ["digital marketing", "google", "e-commerce"],
     rating: 5,
-    enrollmentCount: 125000
+    enrollmentCount: 125000,
   },
 
   // Data Science Courses
@@ -329,7 +342,8 @@ export const coursesData: Course[] = [
     title: "IBM Data Science Professional Certificate",
     platform: "Coursera",
     url: "https://www.coursera.org/professional-certificates/ibm-data-science",
-    description: "Kickstart your career in data science. Master the most up-to-date practical skills and knowledge data scientists use in their daily roles.",
+    description:
+      "Kickstart your career in data science. Master the most up-to-date practical skills and knowledge data scientists use in their daily roles.",
     instructor: "IBM",
     duration: 720,
     moduleLength: 25,
@@ -346,7 +360,7 @@ export const coursesData: Course[] = [
     category: "Data Science",
     tags: ["data science", "python", "machine learning", "ibm"],
     rating: 5,
-    enrollmentCount: 280000
+    enrollmentCount: 280000,
   },
 
   // UI/UX Design Courses
@@ -355,7 +369,8 @@ export const coursesData: Course[] = [
     title: "Google UX Design Professional Certificate",
     platform: "Coursera",
     url: "https://www.coursera.org/professional-certificates/google-ux-design",
-    description: "Get ready for a career in UX design. Learn job-ready skills like wireframing, prototyping, and user research.",
+    description:
+      "Get ready for a career in UX design. Learn job-ready skills like wireframing, prototyping, and user research.",
     instructor: "Google",
     duration: 600,
     moduleLength: 22,
@@ -372,14 +387,15 @@ export const coursesData: Course[] = [
     category: "Design",
     tags: ["ux design", "ui design", "google", "wireframing"],
     rating: 5,
-    enrollmentCount: 195000
+    enrollmentCount: 195000,
   },
   {
     id: "figma-ui-design-youtube",
     title: "Figma UI Design Tutorial for Beginners",
     platform: "YouTube",
     url: "https://www.youtube.com/watch?v=FTFaQWZBqQ8",
-    description: "Learn Figma basics in this comprehensive tutorial. Create beautiful user interfaces from scratch.",
+    description:
+      "Learn Figma basics in this comprehensive tutorial. Create beautiful user interfaces from scratch.",
     instructor: "DesignCourse",
     duration: 120,
     moduleLength: 12,
@@ -396,7 +412,7 @@ export const coursesData: Course[] = [
     category: "Design",
     tags: ["figma", "ui design", "design tools"],
     rating: 4,
-    enrollmentCount: 85000
+    enrollmentCount: 85000,
   },
 
   // Music Production Courses
@@ -405,7 +421,8 @@ export const coursesData: Course[] = [
     title: "Music Production Specialization",
     platform: "Coursera",
     url: "https://www.coursera.org/specializations/music-production",
-    description: "Learn music production, develop your own sound, and start creating professional-quality music.",
+    description:
+      "Learn music production, develop your own sound, and start creating professional-quality music.",
     instructor: "Berklee College of Music",
     duration: 480,
     moduleLength: 20,
@@ -422,7 +439,7 @@ export const coursesData: Course[] = [
     category: "Music",
     tags: ["music production", "audio", "berklee"],
     rating: 5,
-    enrollmentCount: 42000
+    enrollmentCount: 42000,
   },
 
   // Excel & Spreadsheets
@@ -431,7 +448,8 @@ export const coursesData: Course[] = [
     title: "Excel Skills for Business",
     platform: "Coursera",
     url: "https://www.coursera.org/specializations/excel",
-    description: "Master Excel to perform routine and sophisticated data analysis. Learn to use PivotTables, lookups, and other powerful tools.",
+    description:
+      "Master Excel to perform routine and sophisticated data analysis. Learn to use PivotTables, lookups, and other powerful tools.",
     instructor: "Macquarie University",
     duration: 360,
     moduleLength: 15,
@@ -448,7 +466,7 @@ export const coursesData: Course[] = [
     category: "Business",
     tags: ["excel", "spreadsheets", "data analysis"],
     rating: 5,
-    enrollmentCount: 250000
+    enrollmentCount: 250000,
   },
 
   // Machine Learning
@@ -457,7 +475,8 @@ export const coursesData: Course[] = [
     title: "Machine Learning Specialization",
     platform: "Coursera",
     url: "https://www.coursera.org/specializations/machine-learning-introduction",
-    description: "Break into AI with this beginner-friendly specialization from Stanford and DeepLearning.AI.",
+    description:
+      "Break into AI with this beginner-friendly specialization from Stanford and DeepLearning.AI.",
     instructor: "Andrew Ng, Stanford University",
     duration: 720,
     moduleLength: 30,
@@ -474,6 +493,6 @@ export const coursesData: Course[] = [
     category: "AI & Machine Learning",
     tags: ["machine learning", "ai", "stanford", "andrew ng"],
     rating: 5,
-    enrollmentCount: 580000
-  }
+    enrollmentCount: 580000,
+  },
 ];

@@ -57,7 +57,7 @@ export default function Home() {
           </p>
 
           {/* Quick Search */}
-          <form onSubmit={handleQuickSearch} className="mb-6">
+          {/* <form onSubmit={handleQuickSearch} className="mb-6">
             <div className="relative max-w-2xl mx-auto">
               <Search className="absolute left-6 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground pointer-events-none" />
               <Input
@@ -69,7 +69,7 @@ export default function Home() {
                 data-testid="input-quick-search"
               />
             </div>
-          </form>
+          </form> */}
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
             <Button

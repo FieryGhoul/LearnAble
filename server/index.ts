@@ -74,7 +74,20 @@ app.use((req, res, next) => {
  // const port = parseInt(process.env.PORT || '5000', 10);
 
 // Use localhost on Windows to avoid ENOTSUP errors
-server.listen(port, "127.0.0.1", () => {
-  log(`Server running at http://127.0.0.1:${port}`);
+
+const port = process.env.PORT || 5000;
+
+// On Vercel, bind to all network interfaces
+const host = process.env.HOST || "0.0.0.0";
+
+server.listen(port, host, () => {
+  log(`✅ Server running at http://${host}:${port}`);
 });
+
+
+
+  
+// server.listen(port, "127.0.0.1", () => {
+//   log(`Server running at http://127.0.0.1:${port}`);
+// });
 })();
